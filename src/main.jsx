@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Layout/>,
     children: [
       { path: '', element: <Home/>},{ path: 'about', element: <About/>},
-      { path: 'contact', element: <Contact/>},{ loader: {gitLoader}, path: 'github', element: <Github/>},
+      { path: 'contact', element: <Contact/>},{ loader: gitLoader, path: 'github', element: <Github/>},
       { path: 'params/:id', element: <Params/>},{ path: '*', element: <h1>Page not found</h1>}
     ]
   }
