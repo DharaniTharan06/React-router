@@ -5,7 +5,6 @@ import Layout from './Layout.jsx'
 import { Home , About , Contact , Github , Params , gitLoader } from './Components'
 import './index.css'
 import App from './App.jsx'
-import { gitLoader } from './Components/Github/Github.jsx'
 
 /*Use <App/> if using BrowserRouter(the round-about way)*/
 
