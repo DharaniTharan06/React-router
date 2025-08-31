@@ -1,4 +1,4 @@
-import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
 import { Header , Footer , Home , About , Contact , Github , Params} from './Components'
 import './App.css'
 
@@ -11,7 +11,7 @@ function App() {
         <Route path='about' element={<About/>}/>
         <Route path='contact' element={<Contact/>}/>
         <Route path='github' element={<Github/>}/>
-        <Route path='params' element={<Params/>}/>
+        <Route path='params/:id' element={<Params/>}/>
         <Route path='*' element={<h1>Page not found</h1>}/>
       </Routes>
       <Footer/>

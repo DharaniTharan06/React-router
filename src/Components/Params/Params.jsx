@@ -1,8 +1,8 @@
-import React from 'react'
-
+import { useParams } from 'react-router-dom'
 function Params() {
+  const {id} = useParams() //This is a router function not custom 
   return (
-    <h1>This is the Params page</h1>
+    <div className='bg-white text-black '>Params : {id}</div>
   )
 }
 
