@@ -21,7 +21,7 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <NavLink to="/home" className={({isActive})=>`${isActive?"text-blue-400":"text-gray-700"} hover:underline`}>
+                  <NavLink to="/" className={({isActive})=>`${isActive?"text-blue-400":"text-gray-700"} hover:underline`}>
                     Home
                   </NavLink>
                 </li>
