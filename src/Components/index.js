@@ -5,4 +5,5 @@ import About from './About/About'
 import Contact from "./Contact/Contact"
 import Github from "./Github/Github"
 import Params from "./Params/Params"
-export { Header , Footer , Home , About , Contact , Github , Params}
+import { gitLoader } from "./Github/Github"
+export { Header , Footer , Home , About , Contact , Github , Params , gitLoader}
